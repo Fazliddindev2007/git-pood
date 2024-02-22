@@ -1,0 +1,297 @@
+body{
+  background:linear-gradient(to bottom ,whitesmoke , white);
+}
+.whith{
+  background-color: white;
+}
+.button{
+  padding-left: 23px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 22px;
+  flex-shrink: 0;
+  background-color: black;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.ustun-1{ 
+  cursor: pointer;
+}
+.img-3{
+  width: 400px;
+  
+}
+.button:hover{
+  border-radius: 10px;
+  transition: 2s;
+  background-color: aliceblue;
+  color: black;
+  border: 3px solid red;
+}
+.img-1{
+  width: 100%;
+  height: 550px;
+}
+.coding h1{
+  font-size: 60px;
+}
+.tex{
+  font-size: 20px;
+}
+.button-1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 160px;
+  height: 46px;
+  border-radius: 16px;
+  background: #FFAE33;  
+  font-size: 18px;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.10);
+}
+.button-1:hover{
+  transition: 2s;
+  border-radius: 10px;
+  border: 1.9cap solid black;
+  color:white;
+}
+.rtext{
+  font-size: 16px; 
+  margin-top: 1px;
+}
+.projeckt .container{
+  height: 500px;
+}
+.projeckt p{
+  font-size: 43px;
+  color: black;
+}
+.projeckt del{
+  color: rgb(173, 172, 172);
+}
+.enviroment .container{
+  height: 600px;
+}
+.text{
+  font-size: 20px;
+}
+.card-2a{
+  margin-top: 180px;
+}
+ .enviroment .button-2{
+  width: 162px;
+  height: 32px;
+  flex-shrink: 0;
+  border-radius: 10.5px;
+  background: #FFAE33;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.10);
+  cursor: pointer;
+}
+.enviroment .button-2:hover{
+  background: #FFB0AE;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.10);
+  transition: 2s;
+}
+.enviroment .button-3{
+  width: 146px;
+  height: 32px;
+  border-radius: 10.5px;
+  background: #FFB0AE;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.10);
+  cursor: pointer;
+}
+.enviroment .button-3:hover{
+  transition: 2s;
+  background: #FFAE33;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.10);
+}
+.ustun-2{
+  font-size: 50px;
+  margin-top: 100px;
+}
+.img-2{
+  margin-left: 40px;
+}
+.ustun-3{
+  font-size: 25px;
+  color: rgb(116, 116, 116);
+}
+.remote .button-1a{
+  width: 220px;
+  height: 47px;
+  flex-shrink: 0;
+  border: 3px dashed black;
+  background-color: white;
+}
+.remote .button-1a:hover{
+  transition: 2s;
+  cursor: pointer;
+  background-color: #000;
+  color: white;
+  border-radius: 10px;
+  border: 3px solid rgb(249, 9, 9)  ;
+}
+.carousel {
+  width: 100%; 
+  height: 166px;
+  /* background-color: whitesmoke;/ */
+}
+.card-container {
+  width: 100%;
+  display: flex;
+  /* background-color: white; */
+}
+
+.card {
+  min-width: 340px;
+  height: 270px;
+  /* background-color: white; */
+} 
+.card-container {
+  overflow-x: auto;
+  overflow-y: hidden; 
+  scroll-snap-type: x mandatory;
+  gap: 8px;
+}
+
+.card {
+  scroll-snap-align: start;
+}
+.card-container {
+  width: calc(100% - 16px);
+  margin: 8px;
+  flex: 0 0 calc(100% - 16px); 
+}
+
+.card-container::-webkit-scrollbar {
+  display: none;
+}
+
+.card {
+  background:white;
+  color: black;
+  border-radius: 10px;
+}
+
+.card:hover {
+  background-color: #000;
+  color: white;
+} 
+.ustun-3{
+  margin-top: 150px;
+}
+.ustun-4{
+  width: 500px;
+  height: 600px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #090909;
+  color: white;
+}
+.button-1aq,.button-2a,.button-3a{
+  width: 262px;
+  height: 46px;
+  border-radius: 12px;
+  color: #FFF;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  cursor: pointer;
+}
+.button-1aq{
+    background: #FC6D26;
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.10);
+}
+.button-2a{
+  background: #3e3e3e;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.10);
+}
+.button-3a{
+  background: #2684FF;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.10);
+}
+.ustun-5{
+  font-size: 18px;
+}
+.button-4a{
+  padding: 1px 16px;
+  border-radius: 12px;
+  background: #FFE4BC;
+  color: black;
+}
+.button-1q{
+  width: 440px;
+  height: 48px;
+  background-color: #3e3e3e;
+  border-radius: 10px;
+}
+.button-1w{
+  width: 143px;
+  height: 32px;
+  border-radius: 12px;
+  background: #12100C;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.10);
+  cursor: pointer;
+}
+.card-1q{
+  position: absolute;
+  left: 20px;
+}
+.card-2q{
+  position: absolute;
+  right: 30px;
+}
+.futter{
+  width: 100%;
+  height: 460px;
+  background-color: #f4f3f2;
+}
+.color-1{
+  color: rgba(18, 16, 12, 0.70);
+  font-family: Roboto;
+  font-size: 17 px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19.5px; /* 162.5% */
+}
+/* .color-1:hover{ */
+  /* transition: 4s;
+  color: red;
+  padding: 3px 2px;
+  background-color: #000;
+  border-radius: 10px;
+} */
+.ustun-6{
+  width: 852px;
+  height: 375px;
+  margin-top:70px;
+}
+.line{
+  width: 900px;
+  height: 0.5px;
+  background-color: #000;
+}
+.ustun-7{
+  width: 852px;
+}
+.container-1{
+  position: relative;
+  width:1190px;
+  height: 60px;
+  background-color: #ECE7E5;
+}
+.button-3ad{
+  position: absolute;
+  right: 20px;
+  width: 163px;
+  height: 32px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  color: #000;
+  background: #F9F9F9;
+  margin-top: 15px;
+}
